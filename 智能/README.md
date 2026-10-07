@@ -10,6 +10,6 @@
 | --- | --- | --- |
 | 第一章：AI 产业化的展开 | [阅读笔记](./chapter-01.md) | [网页版本](./chapter-01.html) |
 | 第二章：智能复利和黑洞效应 | [阅读笔记](./chapter-02.md) | [网页版本](./chapter-02.html) |
+| 第三章：一人千面——智能商业范式大变革 | [阅读笔记](./chapter-03.md) | [网页版本](./chapter-03.html) |
 
 > 原书可在[微信读书](https://weread.qq.com/book-detail?type=1&v=dcc32bc0813abbeeag013b75)查看。
-
