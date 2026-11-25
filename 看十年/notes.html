@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="曾鸣" />
+  <meta name="description" content="从智能商业、AI 原生应用到组织 OS 与战略学习闭环，理解 AI 时代未来三年的结构性变化。" />
+  <title>看十年（上下）读书笔记</title>
+  <style>
+
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">:root {
+--ink: #172033;
+--muted: #667085;
+--blue: #0f4c81;
+--pale: #eef5fb;
+--line: #d9e2ec;
+}
+* { box-sizing: border-box; }
+html { background: #edf1f5; }
+body {
+position: relative;
+max-width: 1280px;
+margin: 28px auto;
+padding: 64px 76px 72px 340px;
+color: var(--ink);
+background: #fff;
+border-radius: 18px;
+box-shadow: 0 12px 40px rgba(23, 32, 51, .08);
+font-family: "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", serif;
+font-size: 17px;
+line-height: 1.9;
+}
+h1, h2, h3 { scroll-margin-top: 24px; }
+#TOC {
+position: fixed;
+top: 52px;
+width: 230px;
+max-height: calc(100vh - 104px);
+margin-left: -278px;
+padding: 18px 18px 18px 20px;
+overflow-y: auto;
+color: var(--muted);
+background: #f8fafc;
+border: 1px solid var(--line);
+border-radius: 14px;
+font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+font-size: 14px;
+line-height: 1.55;
+}
+#TOC::before {
+display: block;
+margin-bottom: 10px;
+color: var(--blue);
+font-size: 15px;
+font-weight: 700;
+content: "目录";
+}
+#TOC ul { margin: 0; padding-left: 1.1rem; }
+#TOC > ul { padding-left: 0; list-style: none; }
+#TOC li { margin: .35rem 0; }
+#TOC a { color: #475467; text-decoration: none; }
+#TOC a:hover { color: var(--blue); text-decoration: underline; }
+h1, h2, h3 { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; }
+h1 { font-size: 2.35rem; line-height: 1.25; color: var(--blue); margin-bottom: .5rem; }
+h2 { margin-top: 2.7rem; padding-bottom: .45rem; font-size: 1.55rem; border-bottom: 2px solid var(--blue); }
+h3 { margin-top: 2rem; font-size: 1.15rem; color: var(--blue); }
+p { margin: .9rem 0; }
+strong { color: #123f68; }
+blockquote {
+margin: 1.5rem 0;
+padding: 1rem 1.25rem;
+color: #344054;
+background: var(--pale);
+border-left: 5px solid var(--blue);
+border-radius: 0 10px 10px 0;
+}
+blockquote p { margin: 0; }
+table { width: 100%; border-collapse: collapse; margin: 1.3rem 0; font-size: .94rem; }
+th { color: #fff; background: var(--blue); }
+th, td { padding: .75rem .8rem; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+tr:nth-child(even) td { background: #f8fafc; }
+li { margin: .3rem 0; }
+code { padding: .1rem .3rem; border-radius: 4px; background: #f2f4f7; font-family: ui-monospace, monospace; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
+@media (max-width: 1100px) {
+body { max-width: 920px; padding: 56px 64px 68px; }
+#TOC {
+position: static;
+width: auto;
+max-height: none;
+margin: 1.5rem 0 2.5rem;
+padding: 18px 22px;
+columns: 2;
+column-gap: 36px;
+}
+#TOC::before { column-span: all; }
+#TOC li { break-inside: avoid; }
+}
+@media (max-width: 760px) {
+html { background: #fff; }
+body { margin: 0; padding: 28px 22px; border-radius: 0; box-shadow: none; font-size: 16px; }
+h1 { font-size: 1.9rem; }
+h2 { margin-top: 2.3rem; font-size: 1.38rem; }
+#TOC { margin: 1.25rem 0 2rem; padding: 16px 18px; columns: 1; font-size: 15px; }
+table { display: block; overflow-x: auto; }
+}
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">看十年（上下）读书笔记</h1>
+<p class="author">曾鸣</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#看十年上下读书笔记" id="toc-看十年上下读书笔记">看十年（上下）读书笔记</a>
+<ul>
+<li><a href="#一句话总结" id="toc-一句话总结">一句话总结</a></li>
+<li><a href="#核心判断" id="toc-核心判断">核心判断</a></li>
+<li><a href="#看十年是一种战略学习框架" id="toc-看十年是一种战略学习框架">1. “看十年”是一种战略学习框架</a></li>
+<li><a href="#商业范式从千人一面到一人千面" id="toc-商业范式从千人一面到一人千面">2.
+商业范式：从“千人一面”到“一人千面”</a></li>
+<li><a href="#ai-原生不是加一个助手而是重新设计系统" id="toc-ai-原生不是加一个助手而是重新设计系统">3. AI
+原生：不是加一个助手，而是重新设计系统</a></li>
+<li><a href="#agent-的终点从对话行动到负责" id="toc-agent-的终点从对话行动到负责">4. Agent
+的终点：从对话、行动到负责</a></li>
+<li><a href="#智能复利ai-时代的价值创造引擎" id="toc-智能复利ai-时代的价值创造引擎">5. 智能复利：AI
+时代的价值创造引擎</a></li>
+<li><a href="#人的价值从知识工作者到创智人才" id="toc-人的价值从知识工作者到创智人才">6.
+人的价值：从知识工作者到创智人才</a></li>
+<li><a href="#ai-原生组织从岗位制到任务网络" id="toc-ai-原生组织从岗位制到任务网络">7. AI
+原生组织：从岗位制到任务网络</a></li>
+<li><a href="#组织-os让整个组织变聪明" id="toc-组织-os让整个组织变聪明">8. 组织 OS：让整个组织变聪明</a></li>
+<li><a href="#战略创新从静态规划到愿景驱动的战略发现" id="toc-战略创新从静态规划到愿景驱动的战略发现">9.
+战略创新：从静态规划到愿景驱动的战略发现</a></li>
+<li><a href="#一张行动清单" id="toc-一张行动清单">一张行动清单</a></li>
+<li><a href="#值得保留的原文" id="toc-值得保留的原文">值得保留的原文</a></li>
+<li><a href="#我的批注最值得带走的三件事" id="toc-我的批注最值得带走的三件事">我的批注：最值得带走的三件事</a></li>
+<li><a href="#开放问题" id="toc-开放问题">开放问题</a></li>
+<li><a href="#阅读结论" id="toc-阅读结论">阅读结论</a></li>
+<li><a href="#来源说明" id="toc-来源说明">来源说明</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="看十年上下读书笔记">看十年（上下）读书笔记</h1>
+<blockquote>
+<p>曾鸣书院公开课 · AI 时代的商业和经济 / AI 原生组织和智能战略</p>
+</blockquote>
+<h2 id="一句话总结">一句话总结</h2>
+<p>AI
+真正改变的不是某个工具或岗位，而是价值创造、组织协作与战略形成的底层机制：企业必须围绕真实任务建立“行动—反馈—学习”的闭环，让机器智能、个人认知与组织能力共同形成复利。</p>
+<h2 id="核心判断">核心判断</h2>
+<p>这场公开课不是在给出一张确定的未来地图，而是在提供一套观察未来的方法。所谓“看十年”，不是猜十年后会出现什么产品，而是把我们行动背后的隐含假设说清楚；“想三年”，是判断即将发生的结构性变化；“干一年”，则是用行动获取真实反馈。</p>
+<p>整场分享可以压缩成四个递进的判断：</p>
+<ol type="1">
+<li><strong>商业会从销售标准产品，转向理解意图并交付结果。</strong> AI
+扩大优质供给，让个性化服务从昂贵的例外变成可规模化的常态。</li>
+<li><strong>AI 原生应用的关键不是“用了 AI”，而是重构价值。</strong>
+产品、工作流、组织和商业模式都要从可规模化调用的机器智能重新出发。</li>
+<li><strong>AI 时代的价值引擎是智能复利。</strong>
+系统做真实工作、获得结果反馈、变得更聪明，再承接更高价值的工作，领先差距由此持续扩大。</li>
+<li><strong>组织与战略也必须成为学习系统。</strong>
+岗位让位于任务，管理让位于能力编排，静态规划让位于愿景驱动的战略发现。</li>
+</ol>
+<h2 id="看十年是一种战略学习框架">1. “看十年”是一种战略学习框架</h2>
+<p>“看十年、想三年、干一年”的价值，不是让人显得有远见，而是建立三个时间尺度之间的张力。</p>
+<ul>
+<li><strong>看十年</strong>：识别长期驱动力、底层规律与不变量，避免被短期噪音牵着走。</li>
+<li><strong>想三年</strong>：判断竞争格局、技术临界点、客户价值和关键能力会发生怎样的结构性变化。这是最难也最重要的一层。</li>
+<li><strong>干一年</strong>：把假设变成行动，用市场和用户反馈校验判断。</li>
+</ul>
+<p>因此，战略不是一份写完后等待执行的计划，而是一组持续更新的 working
+hypothesis：</p>
+<blockquote>
+<p>假设 → 行动 → 真实反馈 → 新洞察 → 修正假设</p>
+</blockquote>
+<p>这套框架的重要提醒是：长期主义不等于坚持原来的答案，而是长期坚持学习同一个重要问题。</p>
+<h2 id="商业范式从千人一面到一人千面">2.
+商业范式：从“千人一面”到“一人千面”</h2>
+<p>曾鸣用三次商业范式变化描述 AI 的位置：</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>时代</th>
+<th>主要矛盾</th>
+<th>核心机制</th>
+<th>典型形态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>工业时代</td>
+<td>供给不足</td>
+<td>标准化、流水线、科层制</td>
+<td>千人一面</td>
+</tr>
+<tr>
+<td>互联网时代</td>
+<td>生产过剩与信息不对称</td>
+<td>搜索、推荐、规模化匹配</td>
+<td>千人千面</td>
+</tr>
+<tr>
+<td>AI 时代</td>
+<td>优质供给稀缺、个体意图未被满足</td>
+<td>理解意图、动态生成、结果交付</td>
+<td>一人千面</td>
+</tr>
+</tbody>
+</table>
+<p>当下大量 AI
+应用仍停留在替代重复劳动、降低成本。这当然有价值，但天花板有限。更大的机会，是让过去昂贵、稀缺、无法普及的优质服务成为大众供给，例如私人医生、老师、理财顾问、旅行顾问和个人助理。</p>
+<p>推荐系统仍是在根据相似人的历史行为“猜”你可能需要什么；AI
+的理想形态则是持续理解一个人在不同情境中的真实意图，并动态组织供给。这意味着商业起点会从“我有什么产品可以卖”，转为“用户此刻真正想完成什么”。</p>
+<p>未来的核心入口，也不再只是流量入口，而是<strong>用户愿意首先表达真实意图的入口</strong>。谁更可信、更了解用户、更能对结果负责，谁就可能拥有新的商业主导权。</p>
+<h2 id="ai-原生不是加一个助手而是重新设计系统">3. AI
+原生：不是加一个助手，而是重新设计系统</h2>
+<p>AI 原生并不由公司的成立年代决定，也不等于在旧流程里加入
+Copilot。它要求企业以可规模化调用的机器智能为新生产要素，反向重构产品、工作流、组织和商业模式。</p>
+<p>判断一个产品是否足够“原生”，可以检查四件事：</p>
+<ol type="1">
+<li>是否创造了过去无法实现的用户体验或客户价值；</li>
+<li>是否依赖真正的原生技术突破，而不是简单包装模型能力；</li>
+<li>是否倒逼基础设施创新，从而低成本服务海量用户；</li>
+<li>是否形成了与新价值相匹配的商业模式。</li>
+</ol>
+<p>从历史看，通用技术通常经历三个阶段：基础设施成熟，原生产品爆发，最终渗透全社会。电力、汽车和互联网都不是在技术诞生时立刻改变世界，而是在可靠性、成本和使用门槛越过临界点之后，应用才密集涌现。</p>
+<p>曾鸣把当前 AI 类比为互联网的 1993
+年：基础能力已经出现，但真正降低普通用户与开发者门槛的“浏览器式突破”仍在形成。未来三五年的核心，可能是
+Agent 大爆发，然后逐渐出现能调度多种 Agent 的 AgentOS
+或超级个人助理。</p>
+<p>这个类比很有启发性，但不能机械套用。AI 比早期 Web
+更资本密集，也更受能源、监管、隐私、责任和模型可靠性约束。因此，“应用即将爆发”应被当作需要持续验证的工作假设，而不是确定的时间表。</p>
+<h2 id="agent-的终点从对话行动到负责">4. Agent
+的终点：从对话、行动到负责</h2>
+<p>可以把 Agent 的能力分成三层：</p>
+<ol type="1">
+<li><strong>对话</strong>：理解问题并生成回应；</li>
+<li><strong>行动</strong>：调用工具、拆解任务、完成长程工作；</li>
+<li><strong>负责</strong>：稳定交付结果，说明过程，在错误中学习，并在能力边界处主动求助。</li>
+</ol>
+<p>真正的商业价值集中在第三层。只有 AI
+能端到端接管任务并对可验证结果负责，它才能获得完整反馈，进入持续学习。若系统总是在关键处把任务退还给人，最有价值的经验就留在闭环之外。</p>
+<p>但“负责”也带来尚未解决的问题：医疗、金融或法律 Agent
+造成损失时，模型商、应用商、工具提供方和用户如何分担责任？AI
+能否可靠判断何时应该求助？过程可验证性、权限边界和人工兜底因此不是配套功能，而是产品本体。</p>
+<h2 id="智能复利ai-时代的价值创造引擎">5. 智能复利：AI
+时代的价值创造引擎</h2>
+<p>工业时代的典型引擎是规模经济，互联网时代是网络效应，AI
+时代则可能是<strong>智能复利</strong>：</p>
+<blockquote>
+<p>完成更多真实工作 → 获得更多结果反馈 → 学得更聪明 →
+承接更复杂、更高价值的工作 → 获得更高质量的反馈</p>
+</blockquote>
+<p>系统首先要跨过“60
+分上岗线”，才能独立完成端到端任务。为此，企业需要设计
+Agent、建立上下文与知识体系、蒸馏专家经验、搭建实验环境，并与首批客户共同训练。</p>
+<p>一旦闭环启动，复杂任务会流向更强的 AI，更强的 AI
+又得到更多数据、人才和高价值任务。这就是“黑洞效应”或“智者恒强”。作者将竞争规律概括为“高维吞噬低维”，并认为
+AI 创业的首要指标不是短期盈利，而是智能进化速度。</p>
+<p>这个判断需要加一个边界：进化速度不能脱离现金流、数据权、客户信任和反馈质量。许多真实任务反馈缓慢、目标模糊，甚至无法自动验证；并非所有行业都能自然形成快速复利。垂直知识、监管、本地化和客户关系，也可能阻止市场简单地被一个“智能黑洞”吞并。</p>
+<h2 id="人的价值从知识工作者到创智人才">6.
+人的价值：从知识工作者到创智人才</h2>
+<p>当知识获取和执行成本显著下降，人的稀缺性会转移到方向选择、问题定义、原创判断和协同落地。曾鸣把这种角色称为“创智人才”。</p>
+<p>创智人才的关键特征包括：</p>
+<ul>
+<li>高能动性：主动认领问题并对结果负责；</li>
+<li>强烈好奇心与快速学习能力；</li>
+<li>从第一性原理重新定义问题；</li>
+<li>能跨越专业边界，形成新的认知；</li>
+<li>能编排人类与机器智能，把洞察变成结果；</li>
+<li>能在高压和不确定性中保持情绪稳定。</li>
+</ul>
+<p>AI
+会放大一个人的能力，也会放大其情绪噪音与人格缺陷。因此，小团队不能只追逐“技术明星”；自我觉察、建设性冲突、协作意愿和从失败中学习，同样是高杠杆能力。</p>
+<h2 id="ai-原生组织从岗位制到任务网络">7. AI
+原生组织：从岗位制到任务网络</h2>
+<p>工业时代组织的基本单元是岗位，围绕岗位建立部门、汇报线、流程和绩效体系。AI
+原生组织的基本单元则更可能是任务。</p>
+<p>面对一项工作，新的组织设计顺序是：</p>
+<ol type="1">
+<li>要完成的真实任务是什么？</li>
+<li>任务需要怎样的能力组合？</li>
+<li>哪些能力可由 Agent 独立完成？</li>
+<li>现有人才可补齐哪些缺口？</li>
+<li>最后才判断是否需要招聘。</li>
+</ol>
+<p>组织因此从固定科层转向“任务驱动的能力协同网络”。人不再只按岗位被分配工作，而可以围绕问题主动认领责任；Agent
+也不只是被人调用，而会在遇到能力边界时主动调用人类专家。</p>
+<p>管理者的角色随之改变：从招聘、分工、上传下达和信息汇总，转向设计能力结构、动态匹配任务、编排人机协作、发展人才，并为最终结果兜底。传统中层的信息中转功能会缩减，但跨项目协调、人才成长、风险判断和责任承担不会消失。</p>
+<h2 id="组织-os让整个组织变聪明">8. 组织 OS：让整个组织变聪明</h2>
+<p>每个人都使用
+AI，并不等于组织获得了智能。局部效率甚至可能制造更多信息和协调成本。真正重要的问题是：<strong>整个组织是否在持续变聪明？</strong></p>
+<p>组织 OS
+是一种制度与技术共同构成的底座，它让组织具备完整的学习闭环：</p>
+<blockquote>
+<p>观察与感知 → 分析 → 建议 → 行动 → 反馈 → 学习 → 再行动</p>
+</blockquote>
+<p>它至少需要四层能力：</p>
+<ul>
+<li><strong>组织记忆</strong>：记录事实、判断、分歧、证据来源与历史决策，而不仅保存最终结论；</li>
+<li><strong>上下文调用</strong>：让人和 AI
+在正确的任务与时点获得相关背景；</li>
+<li><strong>能力编排</strong>：把人、Agent、数据和既有 SaaS
+组合进端到端工作流；</li>
+<li><strong>反馈沉淀</strong>：把一线经验、失败教训和优秀实践转化为可复用能力。</li>
+</ul>
+<p>“Context not
+Control”在这里尤其重要。共享的不应只是两页结论，还应包括完整思考过程、AI
+对话、隐含假设和证据链。充分上下文可以减少命令与审批，让成员自主判断，也使协作从信息同步走向认知共创。</p>
+<p>但透明并非越多越好。全面记录可能演变为监控文化，错误信息也可能在组织记忆里长期固化。谁能写入、修改、调用和遗忘，如何保护个人隐私、商业秘密与心理安全，必须成为组织
+OS 的治理层。</p>
+<h2 id="战略创新从静态规划到愿景驱动的战略发现">9.
+战略创新：从静态规划到愿景驱动的战略发现</h2>
+<p>高度不确定的环境中，传统的“五年规划—年度拆解—KPI
+执行”会迅速过时。替代方案是 <strong>Vision-driven Strategy
+Discovery</strong>：</p>
+<blockquote>
+<p>愿景 → 三年战略框架 → 当下行动组合 → 真实反馈 → 解释与洞察 →
+校验愿景并修正战略</p>
+</blockquote>
+<p>愿景不是不可动摇的口号，而是方向、价值基准和一项可以修正的假设。三年框架定义路径、里程碑、关键能力和客户价值突破；一年行动除了创造业绩，还承担获取反馈的任务。</p>
+<p>作者进一步把战略生成系统类比为机器学习：</p>
+<table>
+<thead>
+<tr>
+<th>机器学习要素</th>
+<th>组织战略中的对应物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>算法</td>
+<td>共同的战略方法论与思考语言</td>
+</tr>
+<tr>
+<td>算力</td>
+<td>高质量人才及其“大脑联网”</td>
+</tr>
+<tr>
+<td>数据</td>
+<td>充分、实时、完整、闭环的真实反馈</td>
+</tr>
+<tr>
+<td>模型输出</td>
+<td>战略洞察与资源配置决策</td>
+</tr>
+<tr>
+<td>持续训练</td>
+<td>实验、复盘、共创与认知更新</td>
+</tr>
+</tbody>
+</table>
+<p>因此，未来的战略竞争不只是“谁的战略更好”，而是“谁的战略生成系统更强”：谁能更快看到事实、更诚实暴露分歧、更深入形成洞察，并把洞察转化为下一轮行动。</p>
+<p>AI
+越擅长处理信息，高质量的线下互动反而越重要。人的面对面交流应从汇报和文档同步中解放出来，用于处理隐含假设、价值冲突、认知模型与真正的共创。</p>
+<h2 id="一张行动清单">一张行动清单</h2>
+<h3 id="对个人">对个人</h3>
+<ul>
+<li>把学习设计成闭环：提问、行动、反馈、复盘、更新模型。</li>
+<li>少问“我掌握什么知识”，多问“我能定义并解决什么复杂问题”。</li>
+<li>用 AI 扩展跨领域理解，把自己的时间留给选择、判断和创造。</li>
+<li>主动认领真实问题，并建立可验证的结果标准。</li>
+</ul>
+<h3 id="对创业者">对创业者</h3>
+<ul>
+<li>先定义一个 AI
+可端到端负责、结果可验证的真实任务，而不是先做零散提效工具。</li>
+<li>明确“60 分上岗线”：成功指标、失败边界、反馈信号和人工兜底。</li>
+<li>与愿意共创的首批客户建立高质量反馈闭环。</li>
+<li>同时追踪任务成功率、人工介入率、错误复发率和经验复用率。</li>
+<li>选择优质供给长期稀缺、并能随学习不断扩展价值边界的场景。</li>
+</ul>
+<h3 id="对管理者">对管理者</h3>
+<ul>
+<li>把招聘申请改写成“任务—能力—自动化程度—人才缺口”分析。</li>
+<li>先建设组织记忆，保存结论背后的证据、分歧与上下文。</li>
+<li>每项战略实验明确：验证什么假设、收集什么信号、何时复盘、如何影响下一步。</li>
+<li>衡量组织是否变聪明，而不只统计个人节省了多少时间。</li>
+<li>会前由 AI
+汇总上下文，会中处理分歧与隐含假设，会后沉淀共识与证据链。</li>
+</ul>
+<h2 id="值得保留的原文">值得保留的原文</h2>
+<blockquote>
+<p>“我的战略的方法论的核心其实就是看十年，想三年，干一年。”（上篇
+01:03）</p>
+</blockquote>
+<blockquote>
+<p>“AI 时代，所有的东西都是关于学习。”（上篇 01:43）</p>
+</blockquote>
+<blockquote>
+<p>“真正创造巨大价值的，是它能打开新的供给。”（上篇 09:28）</p>
+</blockquote>
+<blockquote>
+<p>“未来商业的竞争，实际上最重要的是抢夺人类表达真实意图的第一入口。”（上篇
+16:56）</p>
+</blockquote>
+<blockquote>
+<p>“AI 商业的本质是对结果承担责任，我直接交付结果。”（上篇 21:16）</p>
+</blockquote>
+<blockquote>
+<p>“AI 原生的本质，不是把 AI
+嵌入现有的产品和工作流，而是以可规模化调用的机器智能为起点，重新设计产品、工作流和组织。”（上篇
+23:18）</p>
+</blockquote>
+<blockquote>
+<p>“原生不是由企业出生的年代决定的，而是由它多大程度上发挥了新技术的根本优势决定的。”（上篇
+45:22）</p>
+</blockquote>
+<blockquote>
+<p>“Chat 是对话，Agent 的核心是行动。”（上篇 56:52）</p>
+</blockquote>
+<blockquote>
+<p>“AI 时代价值创造的引擎是智能复利。”（上篇 73:23）</p>
+</blockquote>
+<blockquote>
+<p>“这是现代组织的基本单元，从岗位开始变成了任务。”（下篇 19:30）</p>
+</blockquote>
+<blockquote>
+<p>“真正重要的是整个组织有没有变聪明。”（下篇 29:12）</p>
+</blockquote>
+<blockquote>
+<p>“当你能力被放大的时候，你的情绪噪音也被放大了。”（下篇 47:25）</p>
+</blockquote>
+<blockquote>
+<p>“战略，在今天的环境下是一个探索创新的过程。”（下篇 55:44）</p>
+</blockquote>
+<blockquote>
+<p>“未来的战略竞争不再是谁的战略更好，而是谁的战略系统更强。”（下篇
+75:43）</p>
+</blockquote>
+<blockquote>
+<p>“AI 就是学习，但是学习一定要闭环。”（下篇 80:24）</p>
+</blockquote>
+<h2 id="我的批注最值得带走的三件事">我的批注：最值得带走的三件事</h2>
+<h3 id="不要把-ai-项目做成工具部署要把它做成学习系统">1. 不要把 AI
+项目做成“工具部署”，要把它做成“学习系统”</h3>
+<p>最常见的误区，是用使用人数、调用次数或节省工时衡量 AI
+转型。这些指标只说明工具被使用，不能说明企业形成了新能力。更有效的问题是：AI
+是否端到端承担了真实任务？结果是否可验证？经验是否进入下一轮工作？</p>
+<h3 id="组织记忆可能是组织-os-的最低可行起点">2. 组织记忆可能是组织 OS
+的最低可行起点</h3>
+<p>与其一开始就建设宏大的智能体平台，不如先让关键决策、证据、分歧和反馈可检索、可追溯、可调用。没有上下文，Agent
+只能做通用回答；没有反馈，组织也无法产生复利。</p>
+<h3 id="高能动性必须与责任和边界同时设计">3.
+“高能动性”必须与责任和边界同时设计</h3>
+<p>任务制、主动认领和充分授权可以释放创造力，也可能带来责任碎片化、持续竞标压力和心理不安全。真正成熟的
+AI
+原生组织，既要鼓励探索，也要清楚定义最终责任、风险边界与失败后的学习机制。</p>
+<h2 id="开放问题">开放问题</h2>
+<ul>
+<li>用户真的愿意把最真实的意图交给同一个 AI
+吗？信任、隐私和可迁移性将如何影响入口竞争？</li>
+<li>当 Agent 造成现实损失时，责任链怎样设计才既可追责又不压制创新？</li>
+<li>哪些行业拥有足够快、足够真实的反馈，最先形成智能复利？</li>
+<li>组织记忆由谁维护，错误判断如何更正，哪些信息应当被遗忘？</li>
+<li>如何衡量“组织变聪明”：决策速度、预测准确度、反馈周期，还是客户价值？</li>
+<li>任务网络如何避免短期主义、隐形劳动和责任模糊？</li>
+<li>什么样的长期愿景既足够稳定，又允许在新事实面前被修正？</li>
+</ul>
+<h2 id="阅读结论">阅读结论</h2>
+<p>这场分享最有价值的地方，不是对 2027 或 2028 年的具体预测，而是把 AI
+时代的商业、组织与战略统一在“学习闭环”之下。智能商业解决如何更深地理解并满足个体意图；智能复利解释价值怎样积累；组织
+OS
+让个体经验成为集体能力；战略发现则保证组织不断用真实世界修正自己。</p>
+<p>如果只能记住一句话，可以记住：<strong>AI
+不只是一个更聪明的工具，而是一种把学习嵌入价值创造全过程的新生产方式。</strong></p>
+<h2 id="来源说明">来源说明</h2>
+<ul>
+<li>文本类型：公开课语音转写原文</li>
+<li>主讲人：曾鸣</li>
+<li>篇幅：约 15.2 万字符，1393 行</li>
+<li>阅读日期：2026-11-24</li>
+<li>笔记模式：结构化精读笔记</li>
+<li>分块方式：按上下篇与内容脉络分为 3 个阅读区段</li>
+</ul>
+</body>
+</html>
